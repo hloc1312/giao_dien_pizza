@@ -1,0 +1,104 @@
+.card{
+    cursor: pointer;
+    transition: all .3s;
+    max-width: 291px;
+    margin-bottom: 4rem;
+    background-color: transparent;
+    border: none;
+}
+
+.card:hover{
+    transform: translateY(-2rem);
+}
+
+
+.item-wrapper{
+    position: relative;
+    padding: 1rem;
+    border-radius: 9px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
+
+.align-center{
+    text-align: center;
+}
+
+.card-img{
+    color: #808080;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    transition: all 0.3s;
+    padding-top: 2rem;
+    text-align: center;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    border-radius: calc(0.25rem - 1px);
+}
+
+.card-img img{
+    max-width: 200px;
+    transition: all 0.3s;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+}
+.item-wrapper svg{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.item-wrapper svg path{
+    fill: #ffffff;
+    transition: all 0.3s;
+    stroke: #cccccc;
+}
+
+.card:hover .item-wrapper svg path{
+    fill:#e7272d;
+}
+
+.card-box{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+.card:hover .item-wrapper,.card:hover .mbr-text,
+.card:hover .price{
+    color: #fff;
+}
+
+.mbr-text{
+    color: #808080;
+    transition: all 0.3s;
+}
+.price{
+    color: #0e0e0e;
+    transition: all 0.3s;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.mbr-bold{
+    font-weight: 700;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    background: #fbbe36;
+    font-size: 1.2rem;
+    transform: translatey(-1.3rem);
+    margin: auto;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #0e0e0e !important;
+}
+

@@ -1,0 +1,44 @@
+.navbar-nav .nav-item a{
+    color: #fff;
+}
+
+.navbar-nav .nav-item a:hover{
+    color: #fbbe36 !important;
+}
+
+.btn-info{
+    color: #e7272d !important;
+    font-weight: 700;
+}
+
+.navbar-short{
+    background: #000;
+}
+
+.icon-cart{
+    font-size: 30px;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon-cart-quantity{
+    border-radius: 50%;
+    background-color: blue;
+    color: #fff;
+    width: 22px;
+    height: 22px;
+
+    font-size: 24px;
+ 
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -4px;
+    right: -10px;
+}
+
+.navbar-brand{
+    font-family: 'Permanent Marker', cursive;
+}

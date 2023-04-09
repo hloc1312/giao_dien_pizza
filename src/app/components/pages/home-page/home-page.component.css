@@ -1,0 +1,49 @@
+.carousel{
+    padding-top: 210px;
+    padding-bottom: 105px;
+    background-color: #e7272d;
+}
+.header{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.product h3{
+    font-family: 'Permanent Marker', cursive;
+    color: #e7272d;
+    
+}
+
+.product h1{
+    font-size: 3.8rem;
+    font-weight: 900;
+}
+
+.video{
+    background-image: url('../../../../assets/images/video/video.jpg');
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
